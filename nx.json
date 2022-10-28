@@ -1,0 +1,11 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheDirectory": "cache",
+        "cacheableOperations": ["build", "test"]
+      }
+    }
+  }
+}

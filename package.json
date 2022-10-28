@@ -1,0 +1,16 @@
+{
+  "name": "nx-14.6.0-ignores-package.json-config",
+  "version": "0.0.1",
+  "description": "A repo for simulating https://github.com/nrwl/nx/issues/12735",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf cache node_modules",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "6.0.1",
+    "nx": "14.5.10"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nx-14.6.0-ignores-package.json-config-a",
+  "version": "0.0.1",
+  "description": "A mock child package",
+  "scripts": {
+    "build": "echo 'Running build script for package a'",
+    "test": "echo 'Running test script for package a'"
+  },
+  "dependencies": {
+    "nx-14.6.0-ignores-package.json-config-b": "*"
+  },
+  "nx": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "test": {
+        "dependsOn": [
+          "build"
+        ]
+      }
+    }
+  }
+}
