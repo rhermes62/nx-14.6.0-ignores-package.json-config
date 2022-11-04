@@ -3,5 +3,6 @@
   "packages": ["packages/*"],
   "rejectCycles": true,
   "stream": true,
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "useNx": true
 }
